@@ -1,0 +1,26 @@
+[
+  {
+    "MSSV": "2310288",
+    "HoTenLot": "Trần Thị Phương",
+    "Ten": "Trang",
+    "NgaySinh": "2005-03-15T00:00:00",
+    "GioiTinh": false,
+    "Lop": "CTK47A",
+    "CMND": "123456789",
+    "SDT": "0912345678",
+    "DiaChi": "Đà Lạt",
+    "DSMonHoc": [ "CSDL", "Lập Trình" ]
+  },
+  {
+    "MSSV": "2310299",
+    "HoTenLot": "Nguyễn Văn",
+    "Ten": "An",
+    "NgaySinh": "2005-04-20T00:00:00",
+    "GioiTinh": true,
+    "Lop": "CTK47B",
+    "CMND": "987654321",
+    "SDT": "0987654321",
+    "DiaChi": "Nha Trang",
+    "DSMonHoc": [ "Mạng Máy Tính", "Hệ Điều Hành" ]
+  }
+]

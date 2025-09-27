@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSinhVien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SinhVien>
+		<MSSV>2314288</MSSV>
+		<HoTenLot>Trần Thị Phương</HoTenLot>
+		<Ten>Trang</Ten>
+		<NgaySinh>2005-03-15T00:00:00</NgaySinh>
+		<GioiTinh>false</GioiTinh>
+		<Lop>CTK47A</Lop>
+		<CMND>123456789</CMND>
+		<SDT>0912345678</SDT>
+		<DiaChi>Đà Lạt</DiaChi>
+		<DSMonHoc>
+			<string>CSDL</string>
+			<string>Lập Trình</string>
+		</DSMonHoc>
+	</SinhVien>
+	<SinhVien>
+		<MSSV>2314299</MSSV>
+		<HoTenLot>Nguyễn Văn</HoTenLot>
+		<Ten>An</Ten>
+		<NgaySinh>2005-04-20T00:00:00</NgaySinh>
+		<GioiTinh>true</GioiTinh>
+		<Lop>CTK47B</Lop>
+		<CMND>987654321</CMND>
+		<SDT>0987654321</SDT>
+		<DiaChi>Nha Trang</DiaChi>
+		<DSMonHoc>
+			<string>Mạng Máy Tính</string>
+			<string>Hệ Điều Hành</string>
+		</DSMonHoc>
+	</SinhVien>
+</ArrayOfSinhVien>
+

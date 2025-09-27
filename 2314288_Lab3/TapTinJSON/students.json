@@ -1,0 +1,18 @@
+{
+	"Sinh vien": [
+		{
+			"MSSV": "2314288",
+			"hoten": "trang",
+			"tuoi": 21,
+			"diem": 8.5,
+			"tongiao": false
+		},
+		{
+			"MSSV": "23134388",
+			"hoten": "phuong",
+			"tuoi": 20,
+			"diem": 8,
+			"tongiao": false
+		}
+	]
+}

@@ -1,0 +1,42 @@
+Z:\2314288\2314288_Lab3\TapTinJSON\bin\Debug\students.json
+Z:\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.exe.config
+Z:\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.exe
+Z:\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.pdb
+Z:\2314288\2314288_Lab3\TapTinJSON\bin\Debug\Newtonsoft.Json.dll
+Z:\2314288\2314288_Lab3\TapTinJSON\bin\Debug\Newtonsoft.Json.xml
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.AssemblyReference.cache
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.Form1.resources
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.Properties.Resources.resources
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.GenerateResource.cache
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.CoreCompileInputs.cache
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.CopyComplete
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.exe
+Z:\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.pdb
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\bin\Debug\students.json
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.exe.config
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.exe
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.pdb
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\bin\Debug\Newtonsoft.Json.dll
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\bin\Debug\Newtonsoft.Json.xml
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.AssemblyReference.cache
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.Form1.resources
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.Properties.Resources.resources
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.GenerateResource.cache
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.CoreCompileInputs.cache
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.Up2Date
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.exe
+D:\Trang\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.pdb
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\bin\Debug\students.json
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.exe.config
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.exe
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\bin\Debug\TapTinJSON.pdb
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\bin\Debug\Newtonsoft.Json.dll
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\bin\Debug\Newtonsoft.Json.xml
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.AssemblyReference.cache
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.Form1.resources
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.Properties.Resources.resources
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.GenerateResource.cache
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.CoreCompileInputs.cache
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.csproj.CopyComplete
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.exe
+F:\Phát triển ứng dụng web\2314288\2314288_Lab3\TapTinJSON\obj\Debug\TapTinJSON.pdb
