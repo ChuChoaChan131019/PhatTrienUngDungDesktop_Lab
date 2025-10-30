@@ -1,5 +1,0 @@
-﻿2310288	Trần Thị Phương	Trang	09/08/2005	0	CTK47A	123456789	0901234567	Nguyễn An Ninh	Mạng máy tính,Hệ điều hành,Lập trình CSDL
-2310345	Nguyễn Duy	Phương	10/01/2001	1	CTK47B	987654321	0912345678	Hai Bà Trưng	Lập trình mạng,Đồ án cơ sở
-2310789	Lê Vy Thục	San	01/01/2001	0	CTK47C	135792468	0934567890	Phù Đổng Thiên Vương	Phương pháp NCKH
-2310110	111	1	27/09/2025	1	CTK47C	111111111	1111.111.111	1	Đồ án cơ sở
-2310445	4	4	27/09/2025	1	CTK47A	444444444	4444.444.444	4	Lập trình mạng,Phương pháp NCKH
