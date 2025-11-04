@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|e:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\phattrienungdungdesktop_lab\\lab09_entity framework\\lab09_entity framework\\updatefoodforrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\updatefoodforrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|e:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\phattrienungdungdesktop_lab\\lab09_entity framework\\lab09_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|e:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\phattrienungdungdesktop_lab\\lab09_entity framework\\lab09_entity framework\\updatefoodforrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\updatefoodforrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\updatecategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\updatecategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\updatecategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\updatecategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\models\\restaurentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\models\\restaurentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\lab09_entity framework\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AB7008-0D35-49AD-AD11-2D7DA3031EA2}|Lab09_Entity Framework\\Lab09_Entity Framework.csproj|solutionrelative:lab09_entity framework\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateFoodForrm.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateFoodForrm.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\UpdateFoodForrm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateFoodForrm.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\UpdateFoodForrm.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAMwEMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:34:18.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateFoodForrm.cs [Design]",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateFoodForrm.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\UpdateFoodForrm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateFoodForrm.cs [Design]",
+              "RelativeToolTip": "Lab09_Entity Framework\\UpdateFoodForrm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:09:46.198Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateCategoryForm.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateCategoryForm.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\UpdateCategoryForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateCategoryForm.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\UpdateCategoryForm.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:33:24.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateCategoryForm.cs [Design]",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateCategoryForm.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\UpdateCategoryForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\UpdateCategoryForm.cs [Design]",
+              "RelativeToolTip": "Lab09_Entity Framework\\UpdateCategoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:32:48.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\MainForm.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\MainForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\MainForm.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\MainForm.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAMwLoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:36:23.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\App.config",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\App.config",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\App.config",
+              "RelativeToolTip": "Lab09_Entity Framework\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-02T15:29:16.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FoodModel.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\FoodModel.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\Models\\FoodModel.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\FoodModel.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\Models\\FoodModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:26:40.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestaurentContext.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\RestaurentContext.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\Models\\RestaurentContext.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\RestaurentContext.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\Models\\RestaurentContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:26:41.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Food.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\Food.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\Models\\Food.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\Food.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\Models\\Food.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:26:41.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\Models\\Category.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\Models\\Category.cs",
+              "RelativeToolTip": "Lab09_Entity Framework\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:26:41.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\MainForm.cs",
+              "RelativeDocumentMoniker": "Lab09_Entity Framework\\MainForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab09_Entity Framework\\Lab09_Entity Framework\\MainForm.cs [Design]",
+              "RelativeToolTip": "Lab09_Entity Framework\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:26:41.014Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

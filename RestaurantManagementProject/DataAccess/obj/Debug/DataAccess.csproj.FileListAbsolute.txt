@@ -1,0 +1,6 @@
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\DataAccess\bin\Debug\DataAccess.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\DataAccess\bin\Debug\DataAccess.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.pdb

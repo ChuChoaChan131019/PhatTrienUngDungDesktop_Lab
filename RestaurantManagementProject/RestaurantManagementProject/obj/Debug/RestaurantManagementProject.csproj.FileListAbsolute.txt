@@ -1,0 +1,16 @@
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe.config
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\RestaurantManagementProject.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\BusinessLogic.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\bin\Debug\DataAccess.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmFood.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.Properties.Resources.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.GenerateResource.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\Restaura.A8B340B1.Up2Date
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\RestaurantManagementProject\obj\Debug\RestaurantManagementProject.frmCategory.resources

@@ -1,0 +1,9 @@
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\bin\Debug\BusinessLogic.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\bin\Debug\DataAccess.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\bin\Debug\DataAccess.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\obj\Debug\BusinessLogic.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\RestaurantManagementProject\BusinessLogic\obj\Debug\BusinessLogic.pdb

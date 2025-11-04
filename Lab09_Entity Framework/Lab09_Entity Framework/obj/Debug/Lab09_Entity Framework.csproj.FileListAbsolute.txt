@@ -1,0 +1,27 @@
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\Lab09_Entity Framework.exe.config
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\Lab09_Entity Framework.exe
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\Lab09_Entity Framework.pdb
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.csproj.AssemblyReference.cache
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity_Framework.MainForm.resources
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity_Framework.Properties.Resources.resources
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.csproj.GenerateResource.cache
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.csproj.CoreCompileInputs.cache
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.exe
+F:\Phát triển ứng dụng web\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\Lab09_Entity Framework.exe.config
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\Lab09_Entity Framework.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\Lab09_Entity Framework.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\EntityFramework.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\EntityFramework.SqlServer.dll
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\EntityFramework.xml
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\bin\Debug\EntityFramework.SqlServer.xml
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity_Framework.MainForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity_Framework.Properties.Resources.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity_Framework.UpdateCategoryForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity_Framework.UpdateFoodForrm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.csproj.GenerateResource.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_En.4E2F541C.Up2Date
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab09_Entity Framework\Lab09_Entity Framework\obj\Debug\Lab09_Entity Framework.pdb
