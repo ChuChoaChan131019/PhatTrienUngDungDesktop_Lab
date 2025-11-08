@@ -1,0 +1,82 @@
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.AssemblyReference.cache
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+Z:\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodInfoForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.CategoryInfoForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderDetailsForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.AccountForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.AssemblyReference.cache
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.AccountForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.CategoryInfoForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodInfoForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderDetailsForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleInfoForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleInfoForm.resources
+F:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.ActivityForm.resources
+E:\Phát triển ứng dụng web\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.ActivityForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.AssemblyReference.cache
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.AccountForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.ActivityForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.CategoryInfoForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodInfoForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderDetailsForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleInfoForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.AccountForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.ActivityForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.CategoryInfoForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodInfoForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderDetailsForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.OrderForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.RoleInfoForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab5_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb

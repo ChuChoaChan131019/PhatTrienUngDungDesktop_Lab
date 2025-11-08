@@ -19,79 +19,89 @@ namespace Lab_Advanced_Command
         {
             InitializeComponent();
         }
-        private void LoadRole()
+        private void LoadRoles(string accountName)
         {
-            string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
-            SqlConnection conn = new SqlConnection(connect);
+            string cs = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
+            SqlConnection conn = new SqlConnection(cs);
             SqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = "exec SelectRoleByNameAccount @accountName";
-            cmd.Parameters.Add("@accountName",SqlDbType.NVarChar);
-            cmd.Parameters["@accountName"].Value = accountName;
-            conn.Open();
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            adapter.Fill(dt);
-            dgvRole.DataSource = dt;
-            this.Text = "Vai trò cả tài khoản " + accountName;
-            conn.Close();
+            SqlDataAdapter da= new SqlDataAdapter(cmd);
+            var dt = new DataTable();
+
+            cmd.CommandText = "exec SelectRolesAccount @accountName";
+            cmd.Parameters.Add("@accountName", SqlDbType.NVarChar, 100).Value =
+            string.IsNullOrWhiteSpace(accountName) ? (object)DBNull.Value : accountName;
+            da.Fill(dt);
+
+            clbRoleAccount.BeginUpdate();
+            try
+            {
+                clbRoleAccount.DataSource = null;
+                clbRoleAccount.Items.Clear();
+
+                clbRoleAccount.DataSource = dt;
+                clbRoleAccount.DisplayMember = "RoleName";
+                clbRoleAccount.ValueMember = "ID";
+                clbRoleAccount.CheckOnClick = true; 
+
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    bool assigned = false;
+                    var v = dt.Rows[i]["Assigned"];
+                    if (v != DBNull.Value) assigned = Convert.ToBoolean(v);
+                    clbRoleAccount.SetItemChecked(i, assigned);
+                }
+            }
+            finally
+            {
+                clbRoleAccount.EndUpdate();
+            }
         }
 
         private void RoleForm_Load(object sender, EventArgs e)
         {
-            LoadRole();
+            LoadRoles(accountName);
         }
-
+        private List<int> GetSelectedRoles(CheckedListBox checklist)
+        {
+            var ids = new List<int>();
+            foreach (var item in checklist.CheckedItems)
+            {
+                var row = item as DataRowView;
+                if (row == null) continue;
+                if (row["ID"] == DBNull.Value) continue;
+                ids.Add(Convert.ToInt32(row["ID"]));
+            }
+            return ids;
+        }
         private void btnAddRole_Click(object sender, EventArgs e)
         {
             var frm = new RoleInfoForm();
             frm.ShowDialog();
-            LoadRole();
+            LoadRoles(accountName);
         }
-        private (string selectedCsv, string activeCsv) GetChecckBox(DataGridView dgv)
-        {
-            var assign = new List<int>();
-            var active = new List<int>();
-            foreach(DataGridViewRow row in dgv.Rows)
-            {
-                if (row.IsNewRow) continue;
-                bool assigned = Convert.ToBoolean(row.Cells["clAssigned"].Value ?? false);
-                bool avtived = Convert.ToBoolean(row.Cells["clActived"].Value ?? false);
-                int id = Convert.ToInt32(row.Cells["clID"].Value);
-
-                if (assigned)
-                {
-                    assign.Add(id);
-                    if(avtived)
-                        active.Add(id);
-                }
-            }
-            return (string.Join(",", assign), string.Join(",", active));
-        }
+       
+        
         
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
-            SqlConnection conn= new SqlConnection(connect);
-            SqlCommand cmd = conn.CreateCommand();
-            var (selectedCsv, activeCsv) = GetChecckBox(dgvRole);
-            cmd.CommandText = "exec UpdateRoleForAccount @accountName, @selectedRoles,@actived";
-            cmd.Parameters.Add("@accountName", SqlDbType.NVarChar, 1000);
-            cmd.Parameters.Add("@selectedRoles", SqlDbType.NVarChar, 1000);
-            cmd.Parameters.Add("@actived", SqlDbType.NVarChar, 1000);
-            cmd.Parameters["@accountName"].Value = accountName;
-            cmd.Parameters["@selectedRoles"].Value = (object)selectedCsv ?? DBNull.Value;
-            cmd.Parameters["@actived"].Value = (object)activeCsv ?? DBNull.Value;
-            conn.Open();
-            var row = cmd.ExecuteNonQuery();
-            if (row > 0)
+            if (string.IsNullOrWhiteSpace(accountName))
             {
-                MessageBox.Show("Cập nhật thành công");
-                LoadRole();
+                MessageBox.Show("Chưa có AccountName.");
+                return;
             }
-            else
-                MessageBox.Show("Cập nhật thất bại");
-            conn.Close();
-            conn.Dispose();
+            var selectedIds = GetSelectedRoles(clbRoleAccount);
+            var activedIds = selectedIds;
+            string cs = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
+            SqlConnection conn = new SqlConnection(cs);
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = "exec UpdateRoleForAccount @accountName, @selectedRoles, @activedRoles";
+            cmd.Parameters.Add("@accountName", SqlDbType.NVarChar, 100).Value = accountName;
+            cmd.Parameters.Add("@selectedRoles", SqlDbType.NVarChar, -1).Value = string.Join(",", selectedIds);
+            cmd.Parameters.Add("@activedRoles", SqlDbType.NVarChar, -1).Value = string.Join(",", activedIds);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Đã lưu vai trò cho tài khoản.");
+            LoadRoles(accountName);
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

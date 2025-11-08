@@ -145,5 +145,17 @@ namespace Lab_Advanced_Command
             DataView foodview = new DataView(foodTable, filterExpression, sortExpression, rowStateFilter);
             dgvFoodList.DataSource = foodview;
         }
+
+        private void qLHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new OrderForm();
+            frm.ShowDialog();
+        }
+
+        private void qLTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new AccountForm();
+            frm.ShowDialog();
+        }
     }
 }

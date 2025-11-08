@@ -25,12 +25,12 @@ namespace Lab_Advanced_Command
 
         private void AccountForm_Load(object sender, EventArgs e)
         {
-            LoadRoles(cbRole,true);
+            LoadRoles(clbRole);
             LoadAccount();
             XoaTrang();
 
         }
-        private void LoadRoles(ComboBox combo, bool allRole = true)
+        private void LoadRoles(CheckedListBox checkedList)
         {
             string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
             SqlConnection conn = new SqlConnection(connect);
@@ -39,17 +39,30 @@ namespace Lab_Advanced_Command
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             adapter.Fill(dt);
-            if (allRole)
-            {
-                var all = dt.NewRow();
-                all["ID"] = DBNull.Value;
-                all["RoleName"] = "Tất cả";
-                dt.Rows.InsertAt(all, 0);
-            }
-            combo.DisplayMember = "RoleName";
-            combo.ValueMember = "ID";
-            combo.DataSource = dt;
+            
+            checkedList.BeginUpdate();
+            checkedList.DataSource = null;
+            checkedList.DataSource = dt;
+            checkedList.DisplayMember = "RoleName";
+            checkedList.ValueMember = "ID";
+            checkedList.CheckOnClick = false;
+            checkedList.EndUpdate();
+           
+
         }
+        private List<int> GetSelectedRoles(CheckedListBox checklist)
+        {
+            var roles = new List<int>();
+            foreach(var item in checklist.CheckedItems)
+            {
+                var row = item as DataRowView;
+                if (row == null) continue;
+                if (row["ID"] == DBNull.Value) continue;
+                roles.Add(Convert.ToInt32(row["ID"]));
+            }
+            return roles;
+        }
+
         private void LoadAccount()
         {
             string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
@@ -58,7 +71,8 @@ namespace Lab_Advanced_Command
             cmd.CommandText = @"select a.AccountName,a.[Password],a.FullName,a.Email,a.Tell,a.DateCreated,b.RoleName, iif(c.Actived = 1, N'Đã kích hoạt', N'Chưa kích hoạt') as Actived
                                     from Account a,Role b, RoleAccount c
                                     where a.AccountName = c.AccountName
-                                            and b.ID = c.RoleID";
+                                            and b.ID = c.RoleID
+                                    order by a.FullName ";
             conn.Open();
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -69,6 +83,12 @@ namespace Lab_Advanced_Command
         }
         private void AddAcount()
         {
+            var roleIds = GetSelectedRoles(clbRole);
+            if (roleIds.Count == 0)
+            {
+                MessageBox.Show("Chưa chọn vai trò!");
+                return;
+            }
             string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
             SqlConnection conn = new SqlConnection(connect);
             SqlCommand cmd = conn.CreateCommand();
@@ -85,7 +105,7 @@ namespace Lab_Advanced_Command
             cmd.Parameters["@fullName"].Value = txtHoTen.Text.Trim();
             cmd.Parameters["@email"].Value = txtEmail.Text.Trim();
             cmd.Parameters["@tell"].Value = mtxtSDT.Text.Trim();
-            cmd.Parameters["@roleID"].Value = Convert.ToInt32(cbRole.SelectedValue); 
+            cmd.Parameters["@roleID"].Value = roleIds[0]; 
             cmd.Parameters["@actived"].Value = checkbActived.Checked;
             conn.Open();
             var rows = cmd.ExecuteNonQuery();          
@@ -109,7 +129,9 @@ namespace Lab_Advanced_Command
             txtPass.Clear();
             txtTenTK.Clear();
             mtxtSDT.Clear();
+            clbRole.ClearSelected();
             checkbActived.Checked = false;
+            oldAccountName = null;
         }
       
 
@@ -125,10 +147,42 @@ namespace Lab_Advanced_Command
             txtPass.Text = row.Cells["clPass"].Value?.ToString();
             checkbActived.Checked = string.Equals(row.Cells["clActived"].Value?.ToString(), "Đã kích hoạt", StringComparison.OrdinalIgnoreCase);
             oldAccountName = txtTenTK.Text;
-            cbRole.SelectedIndex = cbRole.FindStringExact(row.Cells["clRole"].Value?.ToString());
+            if (!string.IsNullOrWhiteSpace(txtTenTK.Text))
+                LoadRolesForAccount(txtTenTK.Text);
+
+        }
+        private void LoadRolesForAccount(string accountName)
+        {
+            var role = new List<int>();
+            string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
+            SqlConnection conn = new SqlConnection(connect);
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = @"
+            select r.ID
+            from RoleAccount ra,Role r
+            where  r.ID = ra.RoleID and ra.AccountName = @acc";
+            cmd.Parameters.Add("@acc", SqlDbType.NVarChar, 1000).Value = accountName;
+            conn.Open();
+            using (var rd = cmd.ExecuteReader())
+                while (rd.Read()) role.Add(rd.GetInt32(0));
+            clbRole.BeginUpdate();
+            for (int i = 0; i < clbRole.Items.Count; i++)
+            {
+                var row = clbRole.Items[i] as DataRowView;
+                var id = (row != null && row["ID"] != DBNull.Value) ? Convert.ToInt32(row["ID"]) : -1;
+                clbRole.SetItemChecked(i, role.Contains(id)); 
+            }
+            clbRole.EndUpdate();
+
         }
         private void UpdateAccount()
         {
+            var roleIds = GetSelectedRoles(clbRole);
+            if (roleIds.Count == 0)
+            {
+                MessageBox.Show("Chưa chọn vai trò!");
+                return;
+            }
             string connect = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
             SqlConnection conn = new SqlConnection(connect);
             SqlCommand cmd = conn.CreateCommand();
@@ -145,9 +199,9 @@ namespace Lab_Advanced_Command
             cmd.Parameters["@NewAccountName"].Value = txtTenTK.Text.Trim();
             cmd.Parameters["@Password"].Value = txtPass.Text.Trim();
             cmd.Parameters["@FullName"].Value = txtHoTen.Text.Trim() ;
-            cmd.Parameters["@Email"].Value = txtEmail.Text.Trim();   // null → DBNull
-            cmd.Parameters["@Tell"].Value =mtxtSDT.Text.Trim();   // null → DBNull
-            cmd.Parameters["@RoleID"].Value = Convert.ToInt32(cbRole.SelectedValue);
+            cmd.Parameters["@Email"].Value = txtEmail.Text.Trim();   
+            cmd.Parameters["@Tell"].Value =mtxtSDT.Text.Trim();
+            cmd.Parameters["@RoleID"].Value = roleIds[0];
             cmd.Parameters["@Actived"].Value = checkbActived.Checked;
 
             try
@@ -176,10 +230,10 @@ namespace Lab_Advanced_Command
         }
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (oldAccountName != null)
-                UpdateAccount();
-            else
+            if (oldAccountName == null)
                 AddAcount();
+            else
+                UpdateAccount();
             XoaTrang();
         }
         private void ResetPass()
@@ -217,6 +271,9 @@ namespace Lab_Advanced_Command
             var frm = new RoleForm();
             frm.accountName = dgvAccount.CurrentRow.Cells["clNameAccount"].Value.ToString();
             frm.ShowDialog();
+            LoadAccount();
+            LoadRoles(clbRole);
+
         }
 
         private void tsmViewActivity_Click(object sender, EventArgs e)
@@ -229,13 +286,10 @@ namespace Lab_Advanced_Command
             var frm = new ActivityForm();
             frm.AccountName = dgvAccount.CurrentRow.Cells["clNameAccount"].Value.ToString();
             frm.ShowDialog();
+            LoadRoles(clbRole);
+
         }
 
-        private void btnAddRole_Click(object sender, EventArgs e)
-        {
-            var role=new RoleInfoForm();
-            role.ShowDialog();
-            LoadRoles(cbRole,true);
-        }
+       
     }
 }

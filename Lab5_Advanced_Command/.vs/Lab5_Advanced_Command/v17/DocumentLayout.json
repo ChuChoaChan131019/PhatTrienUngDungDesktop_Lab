@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\lab_advanced_command\\accountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\accountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|e:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\phattrienungdungdesktop_lab\\lab5_advanced_command\\lab_advanced_command\\roleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\roleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|e:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\phattrienungdungdesktop_lab\\lab5_advanced_command\\lab_advanced_command\\roleinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\roleinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|e:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\phattrienungdungdesktop_lab\\lab5_advanced_command\\lab_advanced_command\\roleinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\roleinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\lab_advanced_command\\roleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\roleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\lab_advanced_command\\accountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\accountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\lab_advanced_command\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\lab_advanced_command\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FF9A17F0-92F2-4FE5-B981-1DEC7C0A29BA}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleInfoForm.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleInfoForm.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\RoleInfoForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleInfoForm.cs",
+              "RelativeToolTip": "Lab_Advanced_Command\\RoleInfoForm.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:23:27.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleInfoForm.cs [Design]",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleInfoForm.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\RoleInfoForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleInfoForm.cs [Design]",
+              "RelativeToolTip": "Lab_Advanced_Command\\RoleInfoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:23:19.606Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleForm.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleForm.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\RoleForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleForm.cs",
+              "RelativeToolTip": "Lab_Advanced_Command\\RoleForm.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAQwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T14:46:15.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleForm.cs [Design]",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleForm.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\RoleForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\RoleForm.cs [Design]",
+              "RelativeToolTip": "Lab_Advanced_Command\\RoleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:35:37.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\App.config",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\App.config",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\App.config",
+              "RelativeToolTip": "Lab_Advanced_Command\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-07T16:40:20.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\Program.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\Program.cs",
+              "RelativeToolTip": "Lab_Advanced_Command\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T17:24:20.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountForm.cs",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\AccountForm.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\AccountForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\AccountForm.cs",
+              "RelativeToolTip": "Lab_Advanced_Command\\AccountForm.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAApwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:29:12.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountForm.cs [Design]",
+              "DocumentMoniker": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\AccountForm.cs",
+              "RelativeDocumentMoniker": "Lab_Advanced_Command\\AccountForm.cs",
+              "ToolTip": "E:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng web\\PhatTrienUngDungDesktop_Lab\\Lab5_Advanced_Command\\Lab_Advanced_Command\\AccountForm.cs [Design]",
+              "RelativeToolTip": "Lab_Advanced_Command\\AccountForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:28:58.988Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
