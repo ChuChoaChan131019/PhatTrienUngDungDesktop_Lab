@@ -34,6 +34,14 @@
             this.cbRole = new System.Windows.Forms.ComboBox();
             this.cbActived = new System.Windows.Forms.ComboBox();
             this.dgvAccount = new System.Windows.Forms.DataGridView();
+            this.clFullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clTel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clDateCreated = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clRole = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clNameAccount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clPass = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clActived = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.resetMậtKhẩuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xóaTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,18 +57,10 @@
             this.txtPass = new System.Windows.Forms.TextBox();
             this.mtxtSDT = new System.Windows.Forms.MaskedTextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.cbRoleInsert = new System.Windows.Forms.ComboBox();
             this.checkbActived = new System.Windows.Forms.CheckBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.groupBoxLoc = new System.Windows.Forms.GroupBox();
-            this.clFullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clTel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clDateCreated = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clRole = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clNameAccount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clPass = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clActived = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clbRole = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBoxLoc.SuspendLayout();
@@ -134,6 +134,70 @@
             this.dgvAccount.TabIndex = 4;
             this.dgvAccount.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAccount_CellClick);
             // 
+            // clFullName
+            // 
+            this.clFullName.DataPropertyName = "FullName";
+            this.clFullName.HeaderText = "Họ và tên";
+            this.clFullName.MinimumWidth = 6;
+            this.clFullName.Name = "clFullName";
+            this.clFullName.Width = 125;
+            // 
+            // clEmail
+            // 
+            this.clEmail.DataPropertyName = "Email";
+            this.clEmail.HeaderText = "Email";
+            this.clEmail.MinimumWidth = 6;
+            this.clEmail.Name = "clEmail";
+            this.clEmail.Width = 125;
+            // 
+            // clTel
+            // 
+            this.clTel.DataPropertyName = "Tell";
+            this.clTel.HeaderText = "SĐT";
+            this.clTel.MinimumWidth = 6;
+            this.clTel.Name = "clTel";
+            this.clTel.Width = 125;
+            // 
+            // clDateCreated
+            // 
+            this.clDateCreated.DataPropertyName = "DateCreated";
+            this.clDateCreated.HeaderText = "Ngày tạo";
+            this.clDateCreated.MinimumWidth = 6;
+            this.clDateCreated.Name = "clDateCreated";
+            this.clDateCreated.Width = 125;
+            // 
+            // clRole
+            // 
+            this.clRole.DataPropertyName = "RoleName";
+            this.clRole.HeaderText = "Vai trò";
+            this.clRole.MinimumWidth = 6;
+            this.clRole.Name = "clRole";
+            this.clRole.Width = 125;
+            // 
+            // clNameAccount
+            // 
+            this.clNameAccount.DataPropertyName = "AccountName";
+            this.clNameAccount.HeaderText = "Tên tài khoản";
+            this.clNameAccount.MinimumWidth = 6;
+            this.clNameAccount.Name = "clNameAccount";
+            this.clNameAccount.Width = 125;
+            // 
+            // clPass
+            // 
+            this.clPass.DataPropertyName = "Password";
+            this.clPass.HeaderText = "Password";
+            this.clPass.MinimumWidth = 6;
+            this.clPass.Name = "clPass";
+            this.clPass.Width = 125;
+            // 
+            // clActived
+            // 
+            this.clActived.DataPropertyName = "Actived";
+            this.clActived.HeaderText = "Hoạt động";
+            this.clActived.MinimumWidth = 6;
+            this.clActived.Name = "clActived";
+            this.clActived.Width = 125;
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -202,7 +266,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(295, 67);
+            this.label6.Location = new System.Drawing.Point(654, 66);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 20);
@@ -224,7 +288,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(654, 65);
+            this.label9.Location = new System.Drawing.Point(294, 70);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(77, 20);
@@ -250,7 +314,7 @@
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(770, 56);
+            this.txtPass.Location = new System.Drawing.Point(411, 63);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(175, 27);
@@ -272,15 +336,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(175, 27);
             this.txtEmail.TabIndex = 16;
-            // 
-            // cbRoleInsert
-            // 
-            this.cbRoleInsert.FormattingEnabled = true;
-            this.cbRoleInsert.Location = new System.Drawing.Point(411, 63);
-            this.cbRoleInsert.Margin = new System.Windows.Forms.Padding(4);
-            this.cbRoleInsert.Name = "cbRoleInsert";
-            this.cbRoleInsert.Size = new System.Drawing.Size(175, 24);
-            this.cbRoleInsert.TabIndex = 17;
             // 
             // checkbActived
             // 
@@ -317,79 +372,23 @@
             this.groupBoxLoc.TabStop = false;
             this.groupBoxLoc.Text = "Lọc";
             // 
-            // clFullName
+            // clbRole
             // 
-            this.clFullName.DataPropertyName = "FullName";
-            this.clFullName.HeaderText = "Họ và tên";
-            this.clFullName.MinimumWidth = 6;
-            this.clFullName.Name = "clFullName";
-            this.clFullName.Width = 125;
-            // 
-            // clEmail
-            // 
-            this.clEmail.DataPropertyName = "Email";
-            this.clEmail.HeaderText = "Email";
-            this.clEmail.MinimumWidth = 6;
-            this.clEmail.Name = "clEmail";
-            this.clEmail.Width = 125;
-            // 
-            // clTel
-            // 
-            this.clTel.DataPropertyName = "Tell";
-            this.clTel.HeaderText = "SĐT";
-            this.clTel.MinimumWidth = 6;
-            this.clTel.Name = "clTel";
-            this.clTel.Width = 125;
-            // 
-            // clDateCreated
-            // 
-            this.clDateCreated.DataPropertyName = "DateCreated";
-            this.clDateCreated.HeaderText = "Ngày tạo";
-            this.clDateCreated.MinimumWidth = 6;
-            this.clDateCreated.Name = "clDateCreated";
-            this.clDateCreated.Width = 125;
-            // 
-            // clRole
-            // 
-            this.clRole.DataPropertyName = "RoleName";
-            this.clRole.HeaderText = "Vai trò";
-            this.clRole.MinimumWidth = 6;
-            this.clRole.Name = "clRole";
-            this.clRole.Width = 125;
-            // 
-            // clNameAccount
-            // 
-            this.clNameAccount.DataPropertyName = "AccountName";
-            this.clNameAccount.HeaderText = "Tên tài khoản";
-            this.clNameAccount.MinimumWidth = 6;
-            this.clNameAccount.Name = "clNameAccount";
-            this.clNameAccount.Width = 125;
-            // 
-            // clPass
-            // 
-            this.clPass.DataPropertyName = "Password";
-            this.clPass.HeaderText = "Password";
-            this.clPass.MinimumWidth = 6;
-            this.clPass.Name = "clPass";
-            this.clPass.Width = 125;
-            // 
-            // clActived
-            // 
-            this.clActived.DataPropertyName = "Actived";
-            this.clActived.HeaderText = "Hoạt động";
-            this.clActived.MinimumWidth = 6;
-            this.clActived.Name = "clActived";
-            this.clActived.Width = 125;
+            this.clbRole.FormattingEnabled = true;
+            this.clbRole.Location = new System.Drawing.Point(769, 68);
+            this.clbRole.Name = "clbRole";
+            this.clbRole.Size = new System.Drawing.Size(251, 89);
+            this.clbRole.TabIndex = 22;
             // 
             // AccountManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.clbRole);
             this.Controls.Add(this.groupBoxLoc);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.checkbActived);
-            this.Controls.Add(this.cbRoleInsert);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.mtxtSDT);
             this.Controls.Add(this.txtPass);
@@ -433,7 +432,6 @@
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.MaskedTextBox mtxtSDT;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.ComboBox cbRoleInsert;
         private System.Windows.Forms.CheckBox checkbActived;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.GroupBox groupBoxLoc;
@@ -449,5 +447,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clNameAccount;
         private System.Windows.Forms.DataGridViewTextBoxColumn clPass;
         private System.Windows.Forms.DataGridViewTextBoxColumn clActived;
+        private System.Windows.Forms.CheckedListBox clbRole;
     }
 }

@@ -18,7 +18,7 @@ namespace Lab4_Basic_Command
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new CategoryForm());
             //Application.Run(new BillsFrom());
-            Application.Run(new MainForm());
+            Application.Run(new AccountManagerForm());
         }
     }
 }

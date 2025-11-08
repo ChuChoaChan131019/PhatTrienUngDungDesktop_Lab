@@ -26,7 +26,7 @@ namespace Lab4_Basic_Command
             string connect = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
             SqlConnection conn = new SqlConnection(connect);
             SqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = "select distinct cast(CheckoutDate as Date) as Ngay from Bills where TableID= @id order by Ngay desc ";
+            cmd.CommandText = "select distinct cast(CheckoutDate as Date) as Ngay from Bills where TableID= @id and CheckoutDate is not null order by Ngay desc ";
             cmd.Parameters.AddWithValue("@id",id);
             conn.Open();
             SqlDataReader reader = cmd.ExecuteReader();

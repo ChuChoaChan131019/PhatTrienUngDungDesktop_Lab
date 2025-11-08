@@ -27,7 +27,7 @@ namespace Lab4_Basic_Command
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = @"select c.ID,c.Name,b.Quantity, c.Price,(b.Quantity*c.Price)as Total
                             from Bills a,BillDetails b,Food c
-                               where a.ID=b.InvoiceID and b.FoodID=c.ID and a.TableID =@tableid and a.Status=0";
+                               where a.ID=b.InvoiceID and b.FoodID=c.ID and a.TableID =@tableid and a.Status=0 ";
             cmd.Parameters.AddWithValue("@tableid", tableID);
             conn.Open();
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
@@ -36,8 +36,8 @@ namespace Lab4_Basic_Command
             dgvCurrentBill.DataSource = dt;
             if (dt.Rows.Count == 0)
             {
-                MessageBox.Show($"Bàn {tableID} hiện chưa có hóa đơn nào đang mở.");
-                return;
+                MessageBox.Show($"Bàn mã {tableID} hiện chưa có hóa đơn nào đang mở.");
+                this.Close();
             }
             conn.Close();
             dgvCurrentBill.AutoGenerateColumns = false;

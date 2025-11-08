@@ -1,20 +1,74 @@
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe.config
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.pdb
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.AssemblyReference.cache
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.AccountManagerForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillDetailsForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillsFrom.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CurrentBillForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.FoodForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CategoryForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.HistoryForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.InvoiceListForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.MainForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.Properties.Resources.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.RoleForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.TableForm.resources
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.GenerateResource.cache
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.CoreCompileInputs.cache
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.exe
-D:\Trang\Phát triển ứng dụng desktop\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.pdb
+Z:\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe.config
+Z:\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe
+Z:\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.pdb
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.AssemblyReference.cache
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.Properties.Resources.resources
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.GenerateResource.cache
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.CoreCompileInputs.cache
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.exe
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.pdb
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillsFrom.resources
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.FoodForm.resources
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CategoryForm.resources
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillDetailsForm.resources
+Z:\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.AccountManagerForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe.config
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.pdb
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.AccountManagerForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillDetailsForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillsFrom.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.FoodForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CategoryForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.Properties.Resources.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.GenerateResource.cache
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.exe
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.pdb
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.MainForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CurrentBillForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.TableForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.InvoiceListForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.HistoryForm.resources
+E:\Phát triển ứng dụng web\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.RoleForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe.config
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.pdb
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.AssemblyReference.cache
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.AccountManagerForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillDetailsForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillsFrom.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CurrentBillForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.FoodForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CategoryForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.HistoryForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.InvoiceListForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.MainForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.Properties.Resources.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.RoleForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.TableForm.resources
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.GenerateResource.cache
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.CoreCompileInputs.cache
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.exe
+F:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe.config
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\bin\Debug\Lab4_Basic_Command.pdb
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.AssemblyReference.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.AccountManagerForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillDetailsForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.BillsFrom.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CurrentBillForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.FoodForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.CategoryForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.HistoryForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.InvoiceListForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.MainForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.Properties.Resources.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.RoleForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.TableForm.resources
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.GenerateResource.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.csproj.CoreCompileInputs.cache
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.exe
+E:\Phát triển ứng dụng web\PhatTrienUngDungDesktop_Lab\Lab4_Basic_Command\obj\Debug\Lab4_Basic_Command.pdb

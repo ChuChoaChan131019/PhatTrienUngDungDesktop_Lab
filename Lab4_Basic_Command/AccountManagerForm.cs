@@ -21,8 +21,7 @@ namespace Lab4_Basic_Command
 
         private void AccountManagerForm_Load(object sender, EventArgs e)
         {
-            LoadRoles(cbRoleInsert,false);
-            LoadRoles(cbRole,true);
+            LoadRoles(clbRole);
             LoadActived();
             ApplyFilter();
         }
@@ -35,7 +34,7 @@ namespace Lab4_Basic_Command
             mtxtSDT.Clear();
             checkbActived.Checked = false;
         }
-        private void LoadRoles(ComboBox combo,bool allRole=true)
+        private void LoadRoles(CheckedListBox checkedList)
         {
             string connectString= ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
             SqlConnection sqlConnection=new SqlConnection(connectString);
@@ -44,16 +43,13 @@ namespace Lab4_Basic_Command
             SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
             DataTable dt= new DataTable();
             adapter.Fill(dt);
-            if(allRole)
-            {
-                var all = dt.NewRow();
-                all["ID"] = DBNull.Value;
-                all["RoleName"] = "Tất cả";
-                dt.Rows.InsertAt(all, 0);
-            }
-            combo.DisplayMember = "RoleName";
-            combo.ValueMember = "ID";
-            combo.DataSource = dt;
+            checkedList.BeginUpdate();
+            checkedList.DataSource = null;
+            checkedList.DataSource = dt;
+            checkedList.DisplayMember = "RoleName";
+            checkedList.ValueMember = "ID";
+            checkedList.CheckOnClick = false;
+            checkedList.EndUpdate();
         }
         private void LoadActived()
         {
@@ -77,7 +73,8 @@ namespace Lab4_Basic_Command
                                     where a.AccountName=c.AccountName 
                                             and b.ID=c.RoleID
                                             and (@roleId IS NULL OR c.RoleID = @roleId)
-                                            and (@actived IS NULL OR c.Actived = @actived)";
+                                            and (@actived IS NULL OR c.Actived = @actived)
+                                    order by FullName";
             sqlCommand.Parameters.Add("@roleId", SqlDbType.Int).Value = (object)roleID ?? DBNull.Value;
             sqlCommand.Parameters.Add("@actived", SqlDbType.Bit).Value = (object)actived ?? DBNull.Value;
             SqlDataAdapter adapter= new SqlDataAdapter(sqlCommand);
@@ -110,23 +107,27 @@ namespace Lab4_Basic_Command
         private void ThemAccount()
         {
             string connectString = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
-
-           
-
             SqlConnection sqlConnection = new SqlConnection(connectString);
                 SqlCommand sqlCommand = sqlConnection.CreateCommand();
             sqlCommand.CommandText = $@"
        insert into Account (AccountName, [Password], FullName, Email, Tell, DateCreated)
         values (N'{txtTenTK.Text}', N'{txtPass.Text}', N'{txtHoTen.Text}', 
-                N'{txtEmail.Text}', N'{mtxtSDT.Text}', GETDATE());
-
-        insert into RoleAccount (RoleID, AccountName, Actived)
-        values ({cbRoleInsert.SelectedValue}, N'{txtTenTK.Text}', 
-                {(checkbActived.Checked ? 1 : 0)});";
+                N'{txtEmail.Text}', N'{mtxtSDT.Text}', GETDATE());";
             sqlConnection.Open();
-                sqlCommand.ExecuteNonQuery();
-                sqlConnection.Close();
+            sqlCommand.ExecuteNonQuery();
 
+            foreach (DataRowView it in clbRole.CheckedItems)
+            {
+                int roleId = Convert.ToInt32(it["ID"]);   // clbRole đã bind ValueMember = ID:contentReference[oaicite:0]{index=0}
+                using (var cmdRole = sqlConnection.CreateCommand())
+                {
+                    cmdRole.CommandText = $@"
+                        insert into RoleAccount (RoleID, AccountName, Actived)
+                        values ({roleId}, N'{txtTenTK.Text.Replace("'", "''")}', {(checkbActived.Checked ? 1 : 0)});";
+                    cmdRole.ExecuteNonQuery();
+                }
+            }
+            sqlConnection.Close();
             MessageBox.Show("Thêm tài khoản thành công!");
             ApplyFilter();
 
@@ -146,7 +147,32 @@ namespace Lab4_Basic_Command
                 ThemAccount();
             XoaTrang();
         }
+        private void CheckRolesForAccount(string accountName)
+        {
+            for (int i = 0; i < clbRole.Items.Count; i++)
+                clbRole.SetItemChecked(i, false);
 
+            string cs = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
+            var ids = new HashSet<int>();
+            using (var conn = new SqlConnection(cs))
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.CommandText = $"SELECT RoleID FROM RoleAccount WHERE AccountName = N'{txtTenTK.Text.Replace("'", "''")}';";
+                conn.Open();
+                using (var rd = cmd.ExecuteReader())
+                {
+                    while (rd.Read())
+                        ids.Add(rd.GetInt32(0));
+                }
+            }
+
+            for (int i = 0; i < clbRole.Items.Count; i++)
+            {
+                var drv = clbRole.Items[i] as DataRowView;   
+                if (drv != null && ids.Contains(Convert.ToInt32(drv["ID"])))
+                    clbRole.SetItemChecked(i, true);
+            }
+        }
         private void dgvAccount_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if(e.RowIndex < 0) return; 
@@ -158,7 +184,7 @@ namespace Lab4_Basic_Command
             mtxtSDT.Text = row.Cells["clTel"].Value?.ToString();
             txtPass.Text = row.Cells["clPass"].Value?.ToString();
             string roleName = row.Cells["clRole"].Value?.ToString();
-            SetComboByRoleName(cbRoleInsert, roleName);
+            CheckRolesForAccount(txtTenTK.Text?.Trim());
             string actText = row.Cells["clActived"].Value?.ToString();
             checkbActived.Checked = actText != null &&
                                     (actText.Equals("Đã kích hoạt", StringComparison.OrdinalIgnoreCase));
@@ -220,14 +246,28 @@ namespace Lab4_Basic_Command
 
             sqlCommand.CommandText = $@"update Account
                                 set [Password] = N'{txtPass.Text}', FullName = N'{txtHoTen.Text}',Email = N'{txtEmail.Text}',Tell= N'{mtxtSDT.Text}'
-                                where AccountName = N'{txtTenTK.Text}';
-
-                                update RoleAccount
-                                set RoleID = {cbRoleInsert.SelectedValue}, Actived = {(checkbActived.Checked ? 1 : 0)}
-                                where AccountName = N'{txtTenTK.Text}';";
-
+                                where AccountName = N'{txtTenTK.Text}'";
             sqlConnection.Open();
             sqlCommand.ExecuteNonQuery();
+
+            using (var cmdDel = sqlConnection.CreateCommand())
+            {
+                cmdDel.CommandText =
+                    $"delete from RoleAccount where AccountName = N'{txtTenTK.Text.Replace("'", "''")}';";
+                cmdDel.ExecuteNonQuery();
+            }
+
+            foreach (DataRowView it in clbRole.CheckedItems)
+            {
+                int roleId = Convert.ToInt32(it["ID"]);
+                using (var cmdIns = sqlConnection.CreateCommand())
+                {
+                    cmdIns.CommandText = $@"
+                                    insert into RoleAccount (RoleID, AccountName, Actived)
+                                    values ({roleId}, N'{txtTenTK.Text.Replace("'", "''")}', {(checkbActived.Checked ? 1 : 0)});";
+                    cmdIns.ExecuteNonQuery();
+                }
+            }
             sqlConnection.Close();
 
             MessageBox.Show("Cập nhật tài khoản thành công!");
